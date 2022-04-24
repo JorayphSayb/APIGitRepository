@@ -13,7 +13,7 @@ namespace TestApiGitHub
     {
 
         private static readonly HttpClient client = new HttpClient();
-        private readonly string _baseURL = "https://api.github.com/repos/";
+        private static readonly string _baseURL = "https://api.github.com/repos/";
 
 
         static async Task Main(string[] args)
